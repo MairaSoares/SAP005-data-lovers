@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: rgb(242, 248, 248);
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 50%;
+}
+
+.section-search {
+  margin: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 20px;
+  border: 1px black solid;
+  width: 100px;
+  height: 150px;
+}
