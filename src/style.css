@@ -1,5 +1,9 @@
 body {
   margin: 0px;
+  font-family: "Lato", sans-serif;
+  background-repeat: repeat;
+  background-position: top center;
+  background-attachment: fixed;
 }
 
 header {
@@ -30,4 +34,8 @@ main {
   border: 1px black solid;
   width: 100px;
   height: 150px;
+}
+
+#root {
+  word-wrap: break-word;
 }
