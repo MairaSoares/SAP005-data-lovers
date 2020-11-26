@@ -17,7 +17,7 @@ const listCard = (data) => {
       (poke) => `
     <section class="box">
       <p>${poke.num}</p>
-      <h3 > ${poke.name}</h3>
+      <h3> ${poke.name}</h3>
       <img src=${poke.img} />
       <div>
           <p><strong>Tipo:</strong> ${poke.type.join(", ")}</p>
