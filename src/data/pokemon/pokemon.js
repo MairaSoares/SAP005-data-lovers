@@ -1,4 +1,4 @@
-export const POKEMON = {
+const POKEMON = {
   pokemon: [
     {
       num: "001",
