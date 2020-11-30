@@ -52,7 +52,8 @@ const populateDropdown = (pokemons) => {
     <option value=${type}>${type}</option>`
     )
     .join("");
-  document.querySelector("#order-type").innerHTML = optionsLayout;
+  document.querySelector("#order-type").innerHTML= optionsLayout;
+
 };
 
 //Filtro dos pokemons de acordo com o typo
