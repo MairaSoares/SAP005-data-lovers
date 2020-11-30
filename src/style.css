@@ -1,5 +1,6 @@
 
-body{
+body {
+
   background-color: rgb(203, 230, 241);
 
 }
@@ -29,11 +30,16 @@ body{
 }
 
 
-.order-type{
+.order-type {
+
   width: 30%;
   height: 40px;
   font-size: medium;
-  background: linear-gradient(180deg, #e5fff4 82.81%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #e5fff4 82.81%,
+    rgba(255, 255, 255, 0) 100%
+  );
   border-radius: 6px;
 
   border: none;
@@ -41,11 +47,15 @@ body{
   text-transform: uppercase;
 }
 
-.order-name{
+.order-name {
   width: 30%;
   height: 40px;
   font-size: medium;
-  background: linear-gradient(180deg, #e5fff4 82.81%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #e5fff4 82.81%,
+    rgba(255, 255, 255, 0) 100%
+  );
   border-radius: 6px;
   border: none;
   font-style: inherit;
