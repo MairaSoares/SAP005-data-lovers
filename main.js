@@ -1,6 +1,7 @@
 const divFilter = document.getElementById("order-type");
 const selectOrder = document.getElementById("order-name");
 const card = document.getElementById("list-cards");
+const stats = document.getElementById("percentage");
 
 const dataPoke = POKEMON.pokemon;
 
@@ -22,7 +23,7 @@ const listCard = (data) => {
       <div>
           <p><strong>Tipo:</strong> ${poke.type.join(", ")}</p>
           <p><strong>Ovo:</strong> ${poke.egg}</p>
-          <p><strong>Chance:</strong> ${poke.avg_spawns} % </p>
+          <p><strong>Resistências:</strong> ${poke.resistant.join(", ")}  </p>
           <p><strong>Fraquezas:</strong> ${poke.weaknesses.join(", ")}</p>
       </div>
     </section>
@@ -59,4 +60,19 @@ const populateDropdown = (pokemons) => {
 //Filtro dos pokemons de acordo com o typo
 divFilter.addEventListener("change", (e) => {
   listCard(filterSearch(dataPoke, e.target.value, "type"));
+});
+
+//
+divFilter.addEventListener("change", () => {
+  const filtered = filterSearch(dataPoke, divFilter.value, "type");
+
+  listCard(filtered)(
+    (stats.innerHTML = `
+    <p class="statics">
+      Os pokémons ${divFilter.value} representam ${computeStats(
+      filtered,
+      dataPoke
+    )}% dos pokemóns da primeira geração.
+    </p>`)
+  );
 });
