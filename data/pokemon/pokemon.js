@@ -15,7 +15,7 @@ const POKEMON = {
         weight: "6.9 kg",
       },
       "pokemon-rarity": "normal",
-      type: [" ", "grass", "poison"],
+      type: ["grass", "poison"],
       encounter: {
         "base-flee-rate": "0.1",
         "base-capture-rate": "0.2",
