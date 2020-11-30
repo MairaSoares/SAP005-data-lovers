@@ -45,6 +45,7 @@ selectOrder.addEventListener("change", ({ target: { value } }) => {
 const populateDropdown = (pokemons) => {
   const pokemonsType = pokemons.map((poke) => poke.type).flat();
   const uniqueTypes = [...new Set(pokemonsType)];
+
   const optionsLayout = uniqueTypes
     .map(
       (type) => `
