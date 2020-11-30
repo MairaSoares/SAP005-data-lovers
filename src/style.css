@@ -1,18 +1,22 @@
-body{
+body {
   background-color: rgb(203, 230, 241);
 }
 
-.containerPoke{
-  display: flex;
-  flex-direction: column; 
+img {
+  width: 50%;
 }
 
-.section-search{
+.containerPoke {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-search {
   display: flex;
   flex-direction: row;
 }
 
-#pokeGoLogo{
+#pokeGoLogo {
   margin-left: auto;
   margin-right: auto;
   height: 44vh;
@@ -20,34 +24,42 @@ body{
   border-radius: 30px;
 }
 
-.section-search{
+.section-search {
   display: flex;
   justify-content: space-around;
   margin-top: 2%;
 }
 
-.order-type{
+.order-type {
   width: 30%;
   height: 40px;
   font-size: medium;
-  background: linear-gradient(180deg, #e5fff4 82.81%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #e5fff4 82.81%,
+    rgba(255, 255, 255, 0) 100%
+  );
   border-radius: 6px;
   border: none;
   font-style: inherit;
   text-transform: uppercase;
 }
 
-.order-name{
+.order-name {
   width: 30%;
   height: 40px;
   font-size: medium;
-  background: linear-gradient(180deg, #e5fff4 82.81%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #e5fff4 82.81%,
+    rgba(255, 255, 255, 0) 100%
+  );
   border-radius: 6px;
   border: none;
   font-style: inherit;
 }
 
-.container{
+.container {
   margin-top: 30px;
   display: flex;
   flex: 1;
@@ -56,7 +68,7 @@ body{
   justify-content: center;
 }
 
-.box{
+.box {
   border: 7px solid rgb(247, 224, 18);
   border-style: outset;
   border-width: 7px;
@@ -69,6 +81,3 @@ body{
   font-size: 15px;
   background-color: #b6c5e0e8;
 }
-
-
-
