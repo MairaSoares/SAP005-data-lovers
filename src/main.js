@@ -65,14 +65,13 @@ divFilter.addEventListener("change", (e) => {
 divFilter.addEventListener("change", () => {
   const filtered = filterSearch(dataPoke, divFilter.value, "type");
 
-  listCard(filtered)
-    ? (stats.innerHTML = `
+  listCard(filtered)(
+    (stats.innerHTML = `
     <p class="statics">
       Os pokémons ${divFilter.value} representam ${computeStats(
-        filtered,
-        dataPoke
-      )}% dos pokemóns da primeira geração.
+      filtered,
+      dataPoke
+    )}% dos pokemóns da primeira geração.
     </p>`)
-    : filtered === " ";
-  listCard;
+  );
 });
