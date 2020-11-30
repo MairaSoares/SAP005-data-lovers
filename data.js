@@ -1,6 +1,7 @@
 window.app = {
   sortData,
   filterSearch,
+  computeStats,
 };
 
 function sortData(data, sortBy, sortOrder) {
@@ -18,4 +19,8 @@ function sortData(data, sortBy, sortOrder) {
 
 function filterSearch(data, condition, key) {
   return data.filter((item) => item[key].includes(condition));
+}
+
+function computeStats(dataType, data) {
+  return ((dataType.length * 100) / data.length).toFixed(2);
 }
