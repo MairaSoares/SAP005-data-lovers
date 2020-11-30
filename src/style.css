@@ -2,10 +2,6 @@ body {
   background-color: rgb(203, 230, 241);
 }
 
-img {
-  width: 50%;
-}
-
 .containerPoke {
   display: flex;
   flex-direction: column;
@@ -80,4 +76,10 @@ img {
   text-align: center;
   font-size: 15px;
   background-color: #b6c5e0e8;
+}
+
+.statics {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(55, 55, 220);
 }
