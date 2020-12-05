@@ -5,29 +5,45 @@ downloads e foi nomeado "o melhor jogo para celular" pelo Game Developers Choice
 Awards e "a melhor aplicação do ano" pelo TechCrunch (extraído do Google Play).
 Os usuários do jogo se tornam "Mestres/ treinadores Pokémons" e podem:
 
-- **Descobrir o mundo Pokémon:** explorar e descobrir novos Pokémon onde quer
-  que estejam.
-- **Pegar** diferentes Pokémon para completar seu Pokédex.
-- **Lutar** contra Pokémon de outros treinadores e conquiste ginásios.
-- **Competir** em batalhas épicas contra outros treinadores.
-- **Juntar-se** a outros treinadores para capturar Pokémon poderosos durante os
-  ataques.
+# Sobre o Projeto
+Esse projeto foi desenvolvido para ser uma enciclopédia de cards. Sendo uma ferramenta
+para auxiliar nas diversas experiências dos usuários.
 
-## Constatações
+# História dos Usuários
+Para definir a experiência do usuário foram utilizadas pesquisas acadêmicas e por demanda já realizadas, a principal delas foi a feita pela Brazilian Journal of Marketing, no qual entrevistou 15 usuários do jogo.
 
-​Para entender melhor as necessidades complementares dos usuários do aplicativo,
-fizemos uma investigação rápida (pesquisa) e estas são algumas das descobertas.
+-André (25 anos): Gosta de jogar pokémon, tem o ensino médio completo, assistia o desenho do Pokémon quando mais novo, sendo esse um dos grandes motivadores para fazer uso do jogo. Quer ter acesso as informações referentes aos tipos para poder comparar com as histórias das séries.
 
-- Os Pokémons têm características únicas que determinam as decisões tomadas pelo
-  usuário (tipo, fraqueza, peso, multiplicador, etc.).
-- Um mestre Pokémon antes de sair para caçar os Pokémons tem que conhecer os 10
-  principais Pokémons que aparecem com mais frequência.
-- Os Pokémons têm diferentes tipos e fraquezas em combate. Estas características
-  são importantes na escolha do Pokémon mais adequado para sua batalha. Às
-  vezes, você tem que escolher aqueles com menos fraquezas e saber de que tipo
-  eles são. Portanto, é importante que um mestre de Pokémon seja capaz de
-  ordená-los por essas 2 características.
-- Os Pokémons evoluem e é importante para um mestre Pokémon saber quantas e
-  quais evoluções eles têm antes e depois.
-- Pokémon comem _candies_ e um mestre Pokémon precisa saber quantos _candies_ um
-  Pokémon precisa para evoluir.
+- Júlia (15 anos):Jogadora assídua, competidora nata gosta de se desafiar no ginásio. Para tanto, necessita ter fácil acesso as características e probabilidades de pokémon.
+
+[EXIGÊNCIAS DOS USUÁRIOS]
+- Vizualizar os pokémons assim que abrir a aplicação no formato de cards.
+
+- Ordernar em ordem alfabética (A-Z/Z-A) todos os pokémons.
+
+- Filtrar os pokémons por tipo/natureza.
+
+- Obter as estatísticas sobre cada classe dos Pokémons.
+
+# Funcionalidades da Aplicação
+
+* Filtrar por tipo;
+* Ordernar de A-Z/ Z-A;
+* Calcular a porcentagem de cada tipo.
+
+# PROTÓTIPO
+![layout](src/img/protótipo.jpeg)
+
+# Teste de Usabilidade
+Pela interação com cliques, facilitando o acesso para crianças que não escrevem, além da interação com imagens.
+Foi feito diversas  melhorias para garantir que a experiência do usuário seja a mais agradável possível, com letras acessíveis e de fácil leitura e também a paleta de cores com tons claros.
+
+# Ferramentas Utilizadas
+
+* HTML
+* CSS
+* JavaScript
+* GIT
+* GitHub
+* Visual Studio Code
+* Jest

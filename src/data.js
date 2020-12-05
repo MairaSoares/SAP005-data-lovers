@@ -4,7 +4,7 @@ window.app = {
   computeStats,
 };
 
-function sortData(data, sortBy, sortOrder) {
+export function sortData(data, sortBy, sortOrder) {
   const copiedArray = data.slice();
   if (sortOrder == "select-A-Z") {
     return copiedArray.sort(function ordena(objOne, objTwo) {
@@ -17,10 +17,10 @@ function sortData(data, sortBy, sortOrder) {
   }
 }
 
-function filterSearch(data, condition, key) {
+export function filterSearch(data, condition, key) {
   return data.filter((item) => item[key].includes(condition));
 }
 
-function computeStats(dataType, data) {
+export function computeStats(dataType, data) {
   return ((dataType.length * 100) / data.length).toFixed(2);
 }
