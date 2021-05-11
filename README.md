@@ -1,13 +1,22 @@
-![Pokémon](src/img/pokeLogo.jpg)
+![Enciclopédia-Pokémon](src/img/PokeGo.png)
 
-*Conheça a aplicação: [Pokelovers](https://poke-lovers.herokuapp.com/)
 
-Esse projeto foi realizado durante o Bootcamp da Laboratoria - turma SAP005, iniciando nossos estudos sobre manipulação de dados.
+Esse projeto foi realizado durante o Bootcamp da Laboratoria - turma SAP005, iniciando nossos estudos sobre javascript.
+
+[**Conheça a Enciclopédia-Pokémon :computer:**] (https://enciclopedia-pokemon.herokuapp.com/)
+
+> Status do Projeto: refatorando :gear:
+
+---
+
+*Conheça a aplicação:
+
+*[Pokelovers](https://enciclopedia-pokemon.herokuapp.com/)
 
 ​Pokémon GO é uma experiência de jogo internacional que tem mais de um bilhão de
 downloads e foi nomeado "o melhor jogo para celular" pelo Game Developers Choice
 Awards e "a melhor aplicação do ano" pelo TechCrunch (extraído do Google Play).
-Os usuários do jogo se tornam "Mestres/ treinadores Pokémons".
+Os usuários do jogo se tornam "Mestres/ treinadores Pokémons" e podem:
 
 # Sobre o Projeto
 Esse projeto foi desenvolvido para ser uma enciclopédia de cards. Sendo uma ferramenta
@@ -16,7 +25,7 @@ para auxiliar nas diversas experiências dos usuários.
 # História dos Usuários
 Para definir a experiência do usuário foram utilizadas pesquisas acadêmicas e por demanda já realizadas, a principal delas foi a feita pela Brazilian Journal of Marketing, no qual entrevistou 15 usuários do jogo.
 
-- André (25 anos): Gosta de jogar pokémon, tem o ensino médio completo, assistia o desenho do Pokémon quando mais novo, sendo esse um dos grandes motivadores para fazer uso do jogo. Quer ter acesso as informações referentes aos tipos para poder comparar com as histórias das séries. 
+-André (25 anos): Gosta de jogar pokémon, tem o ensino médio completo, assistia o desenho do Pokémon quando mais novo, sendo esse um dos grandes motivadores para fazer uso do jogo. Quer ter acesso as informações referentes aos tipos para poder comparar com as histórias das séries.
 
 - Júlia (15 anos):Jogadora assídua, competidora nata gosta de se desafiar no ginásio. Para tanto, necessita ter fácil acesso as características e probabilidades de pokémon.
 
@@ -50,30 +59,17 @@ Para definir a experiência do usuário foram utilizadas pesquisas acadêmicas e
 Pela interação com cliques, facilitando o acesso para crianças que não escrevem, além da interação com imagens.
 Foi feito diversas  melhorias para garantir que a experiência do usuário seja a mais agradável possível, com letras acessíveis e de fácil leitura e também a paleta de cores com tons claros.
 
+# Ferramentas Utilizadas
 
-# Habilidades Desenvolvidas :dart:
-
-:pushpin: HTML semântico<br>
-:pushpin: CSS <br>
-:pushpin: Javascript <br>
-:pushpin: Colaboração pelo Github<br>
-:pushpin: Design Sprint<br>
-:pushpin: Experiência do Usuário (UX)<br>
-:pushpin: MVP (Mínimo Produto Viável)<br>
-:pushpin: Jest<br>
-
-
-
-# Soft Skills
-
-:pushpin: Colaboração<br>
-:pushpin: Trabalho em equipe<br>
-:pushpin: Diálogo entre a dupla<br>
-:pushpin: Manejo do estresse<br>
-:pushpin: Planejamento<br>
-:pushpin: Saber pedir ajuda às colegas e aos mentores
+* HTML
+* CSS
+* JavaScript
+* GIT
+* GitHub
+* Visual Studio Code
+* Jest
 
 ### Desenvolvido por:
 
-#### :octocat:  [Mairã Soares](https://github.com/MairaSoares)
-#### :octocat:  [Kaueny Alves](https://github.com/Kaueny-Alves)
+*  [Mairã Soares](https://github.com/MairaSoares)
+*  [Kaueny Alves](https://github.com/Kaueny-Alves)
