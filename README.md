@@ -60,7 +60,7 @@ Se quiser saber um pouco mais sobre o planejamento, basta acessar esse [link](ht
 
 - Obter as estatísticas sobre cada classe dos Pokémons.
 
-# Funcionalidades da Aplicação
+#### Funcionalidades da Aplicação
 
 * Filtrar por tipo;
 * Ordernar de A-Z/ Z-A;
@@ -73,16 +73,17 @@ Se quiser saber um pouco mais sobre o planejamento, basta acessar esse [link](ht
 Para definir a experiência do usuário foram utilizadas pesquisas acadêmicas e por demanda já realizadas, a principal delas foi a feita pela Brazilian Journal of Marketing, no qual entrevistou 15 usuários do jogo.
 
 -André (25 anos): Gosta de jogar pokémon, tem o ensino médio completo, assistia o desenho do Pokémon quando mais novo, sendo esse um dos grandes motivadores para fazer uso do jogo. Quer ter acesso as informações referentes aos tipos para poder comparar com as histórias das séries.
-
-- Júlia (15 anos):Jogadora assídua, competidora nata gosta de se desafiar no ginásio. Para tanto, necessita ter fácil acesso as características e probabilidades de pokémon.
-
+-Júlia (15 anos):Jogadora assídua, competidora nata gosta de se desafiar no ginásio. Para tanto, necessita ter fácil acesso as características e probabilidades de pokémon.
 
 
-# Teste de Usabilidade
+
+#### Teste de Usabilidade
 Pela interação com cliques, facilitando o acesso para crianças que não escrevem, além da interação com imagens.
 Foi feito diversas  melhorias para garantir que a experiência do usuário seja a mais agradável possível, com letras acessíveis e de fácil leitura e também a paleta de cores com tons claros.
 
 ## 4. Habilidades Desenvolvidas :dart:
+
+#### Habilidades Técnicas
 
 :pushpin: HTML<br>
 :pushpin: CSS<br>
