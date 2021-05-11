@@ -1,8 +1,17 @@
-# Pokémon
+![Enciclopédia-Pokémon](src/img/PokeGo.png)
+
+
+Esse projeto foi realizado durante o Bootcamp da Laboratoria - turma SAP005, iniciando nossos estudos sobre javascript.
+
+[**Conheça a Enciclopédia-Pokémon :computer:**] (https://enciclopedia-pokemon.herokuapp.com/)
+
+> Status do Projeto: refatorando :gear:
+
+---
 
 *Conheça a aplicação:
 
-*[Pokelovers](https://poke-lovers.herokuapp.com/)
+*[Pokelovers](https://enciclopedia-pokemon.herokuapp.com/)
 
 ​Pokémon GO é uma experiência de jogo internacional que tem mais de um bilhão de
 downloads e foi nomeado "o melhor jogo para celular" pelo Game Developers Choice
@@ -34,9 +43,6 @@ Para definir a experiência do usuário foram utilizadas pesquisas acadêmicas e
 * Filtrar por tipo;
 * Ordernar de A-Z/ Z-A;
 * Calcular a porcentagem de cada tipo.
-
-# PROTÓTIPO
-![layout](src/img/protótipo.jpeg)
 
 # Imagens
 
