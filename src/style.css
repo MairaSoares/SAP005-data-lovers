@@ -97,6 +97,13 @@ h3 {
   margin: 10px;
 }
 
+.pokemon{
+  width: 250px;
+  height: 250px;
+  object-fit: fill;
+  cursor: pointer;
+}
+
 img{
   height: auto;
 }
